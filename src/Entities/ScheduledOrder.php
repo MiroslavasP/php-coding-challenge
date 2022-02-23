@@ -19,4 +19,16 @@ class ScheduledOrder
         $this->deliveryDate = $deliveryDate;
         $this->interval = $isInterval;
     }
+    public function getDeliveryDate(): string
+    {
+        return $this->deliveryDate;
+    }
+    public function setHoliday(bool $holiday): void
+    {
+        $this->holiday = $holiday;
+    }
+    public function setOptIn(bool $optIn): void
+    {
+        $this->optIn = $optIn;
+    }
 }

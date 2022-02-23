@@ -1,16 +1,26 @@
 {
-    "require": {
-        "phpunit/phpunit": "^7.5",
-        "nesbot/carbon": "^2.18"
-    },
+    "name": "delivery/subscription",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "App\\": "src/"
+            "App\\": "src/",
+            "Routes\\": "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
             "Tests\\": "tests/"
         }
+    },
+    "authors": [
+        {
+            "name": "MiroslavasP",
+            "email": "kokybiskibatai@gmail.com"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.5",
+        "nesbot/carbon": "^2.57",
+        "laravel/ui": "^3.4"
     }
 }

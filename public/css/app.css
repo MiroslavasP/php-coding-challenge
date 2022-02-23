@@ -1,0 +1,49 @@
+body {
+  width: 100vw;
+}
+
+.hat {
+  background-color: lightgreen;
+  width: 100vw;
+}
+
+.footer {
+  background-color: lightgreen;
+  text-align: center;
+  width: 100vw;
+}
+
+.form {
+  background-color: #baecba;
+  padding: 5vw;
+  margin: 5vw;
+  border-radius: 20px;
+}
+
+.calendar {
+  align-items: center;
+  margin-left: 200px;
+  background-color: lightgray;
+  width: 50vw;
+  padding: 0, auto;
+  text-align: center;
+}
+
+.first-delivery-date {
+  background-color: grey;
+}
+
+.scedule {
+  position: relative;
+  align-items: center;
+  margin-top: 20px;
+  padding-bottom: 30px;
+}
+
+.button {
+  margin: 20px auto;
+}
+
+.forms {
+  display: flex;
+}
